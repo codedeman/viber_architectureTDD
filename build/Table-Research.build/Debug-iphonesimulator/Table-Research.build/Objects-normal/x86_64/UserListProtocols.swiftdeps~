@@ -1,0 +1,112 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewToPresenterUserListProtocol"
+- "PresenterToRouterUsersListProtocol"
+- "PresenterToViewUserListProtocol"
+- "PresenterToInteractorUserListProtocol"
+- "InteractorToPresenterUserListPotocol"
+provides-nominal:
+- "14Table_Research31ViewToPresenterUserListProtocolP"
+- "14Table_Research34PresenterToRouterUsersListProtocolP"
+- "14Table_Research31PresenterToViewUserListProtocolP"
+- "14Table_Research37PresenterToInteractorUserListProtocolP"
+- "14Table_Research36InteractorToPresenterUserListPotocolP"
+provides-member:
+- ["14Table_Research31ViewToPresenterUserListProtocolP", ""]
+- ["14Table_Research34PresenterToRouterUsersListProtocolP", ""]
+- ["14Table_Research31PresenterToViewUserListProtocolP", ""]
+- ["14Table_Research37PresenterToInteractorUserListProtocolP", ""]
+- ["14Table_Research36InteractorToPresenterUserListPotocolP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "Array"
+- "Error"
+- "InteractorToPresenterUserListPotocol"
+- "PresenterToInteractorUserListProtocol"
+- "PresenterToRouterUsersListProtocol"
+- "PresenterToViewUserListProtocol"
+- "String"
+- "UINavigationController"
+- "UserEntity"
+- "UserViewController"
+- "ViewToPresenterUserListProtocol"
+depends-member:
+- ["14Table_Research36InteractorToPresenterUserListPotocolP", "Array"]
+- ["14Table_Research36InteractorToPresenterUserListPotocolP", "Error"]
+- ["14Table_Research36InteractorToPresenterUserListPotocolP", "UserEntity"]
+- ["14Table_Research36InteractorToPresenterUserListPotocolP", "userFailed"]
+- ["14Table_Research36InteractorToPresenterUserListPotocolP", "usersSuccess"]
+- ["14Table_Research37PresenterToInteractorUserListProtocolP", "InteractorToPresenterUserListPotocol"]
+- ["14Table_Research37PresenterToInteractorUserListProtocolP", "loadUser"]
+- ["14Table_Research37PresenterToInteractorUserListProtocolP", "presenter"]
+- ["14Table_Research34PresenterToRouterUsersListProtocolP", "UserViewController"]
+- ["14Table_Research34PresenterToRouterUsersListProtocolP", "createUsersListModule"]
+- ["14Table_Research31PresenterToViewUserListProtocolP", "Array"]
+- ["14Table_Research31PresenterToViewUserListProtocolP", "String"]
+- ["14Table_Research31PresenterToViewUserListProtocolP", "UserEntity"]
+- ["14Table_Research31PresenterToViewUserListProtocolP", "onPostResponseFailed"]
+- ["14Table_Research31PresenterToViewUserListProtocolP", "onPostResponseSucces"]
+- ["14Table_Research31ViewToPresenterUserListProtocolP", "PresenterToInteractorUserListProtocol"]
+- ["14Table_Research31ViewToPresenterUserListProtocolP", "PresenterToRouterUsersListProtocol"]
+- ["14Table_Research31ViewToPresenterUserListProtocolP", "PresenterToViewUserListProtocol"]
+- ["14Table_Research31ViewToPresenterUserListProtocolP", "UINavigationController"]
+- ["14Table_Research31ViewToPresenterUserListProtocolP", "fetchUsers"]
+- ["14Table_Research31ViewToPresenterUserListProtocolP", "interactor"]
+- ["14Table_Research31ViewToPresenterUserListProtocolP", "router"]
+- ["14Table_Research31ViewToPresenterUserListProtocolP", "showDetailController"]
+- ["14Table_Research31ViewToPresenterUserListProtocolP", "view"]
+depends-nominal:
+- "14Table_Research36InteractorToPresenterUserListPotocolP"
+- "14Table_Research37PresenterToInteractorUserListProtocolP"
+- "14Table_Research34PresenterToRouterUsersListProtocolP"
+- "14Table_Research31PresenterToViewUserListProtocolP"
+- "14Table_Research31ViewToPresenterUserListProtocolP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.swiftmodule/x86_64.swiftmodule"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/Alamofire/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SnapKit/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON-umbrella.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage-umbrella.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/Alamofire/Alamofire-umbrella.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SnapKit/SnapKit-umbrella.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SwiftyJSON/Swift Compatibility Header/SwiftyJSON-Swift.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/AlamofireImage/Swift Compatibility Header/AlamofireImage-Swift.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/Alamofire/Swift Compatibility Header/Alamofire-Swift.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/ObjectMapper/Swift Compatibility Header/ObjectMapper-Swift.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SnapKit/Swift Compatibility Header/SnapKit-Swift.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.modulemap"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.modulemap"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/Alamofire/Alamofire.modulemap"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.modulemap"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.modulemap"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SnapKit/SnapKit.modulemap"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a9ebbb60692edd61f89c0704e2f22132"

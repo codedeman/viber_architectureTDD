@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "a80c90daca804ff6fa470fbe69e51684"
+build_time: [1585020894, 497388000]
+inputs:
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Table-Research/Sign In/presenter/SignInPresenter.swift": [1584951172, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Table-Research/Sign In/views/SignInViewController.swift": [1584951983, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Table-Research/protocols/UserListProtocols.swift": [1584959762, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Table-Research/views/UserViewController.swift": [1584698974, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Table-Research/entity/User.swift": [1584698956, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Table-Research/service/UserService.swift": [1585020538, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Table-Research/Sign In/router/SignInRouter.swift": [1584951850, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Table-Research/TableViewCell.swift": [1583999834, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Table-Research/views/UserGitHubCell.swift": [1584696942, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Table-Research/routers/UserRouter.swift": [1584930025, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Table-Research/presenter/UserListPresenter.swift": [1584960786, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Table-Research/interactor/UserListInteractor.swift": [1585020892, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Table-Research/ViewController.swift": [1583998399, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Table-Research/Sign In/interactor/SignInInteractor.swift": [1584950842, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Table-Research/AppDelegate.swift": [1584946941, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Table-Research/views/UsersTableViewCell.swift": [1584698956, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Table-Research/Sign In/protools/SingInProtocols.swift": [1584950842, 0]

@@ -1,0 +1,6 @@
+module Pods_Table_Research {
+  umbrella header "Pods-Table-Research-umbrella.h"
+
+  export *
+  module * { export * }
+}

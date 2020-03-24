@@ -1,0 +1,543 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SignInPresenterTest"
+- "MockSignInView"
+- "MockSignInInteractor"
+- "MockSignInRouter"
+provides-nominal:
+- "19Table_ResearchTests19SignInPresenterTestC"
+- "19Table_ResearchTests14MockSignInViewC"
+- "19Table_ResearchTests20MockSignInInteractorC"
+- "19Table_ResearchTests16MockSignInRouterC"
+provides-member:
+- ["19Table_ResearchTests19SignInPresenterTestC", ""]
+- ["19Table_ResearchTests14MockSignInViewC", ""]
+- ["19Table_ResearchTests20MockSignInInteractorC", ""]
+- ["19Table_ResearchTests16MockSignInRouterC", ""]
+provides-dynamic-lookup:
+- "setUp"
+- "tearDown"
+- "testExample"
+- "testInteractorStartsSignInProcess"
+- "testPerformanceExample"
+- "testUpdatesViewWhenSuccessIsReturned"
+- "testViewLoadingStateChangesWhenSignIn"
+- "testWhenFailure"
+depends-top-level:
+- !private "!"
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MockDataFetcher"
+- "MockSignInInteractor"
+- "MockSignInRouter"
+- "MockSignInView"
+- "NetworkDataFetcher"
+- !private "SignInErrorCodes"
+- "SignInInteraction"
+- "SignInInteractorOutput"
+- "SignInPresentation"
+- "SignInPresenter"
+- "SignInPresenterTest"
+- "SignInRoutable"
+- "SignInView"
+- "String"
+- !private "StringLiteralType"
+- "UIViewController"
+- !private "XCTAssert"
+- !private "XCTAssertFalse"
+- !private "XCTAssertTrue"
+- "XCTestCase"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "MockSignInInteractor"]
+- !private ["s7CVarArgP", "MockSignInRouter"]
+- !private ["s7CVarArgP", "MockSignInView"]
+- !private ["s7CVarArgP", "SignInPresenter"]
+- !private ["s7CVarArgP", "XCTAssert"]
+- !private ["s7CVarArgP", "XCTAssertFalse"]
+- !private ["s7CVarArgP", "XCTAssertTrue"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "measure"]
+- !private ["s7CVarArgP", "mockInteractor"]
+- !private ["s7CVarArgP", "mockRouter"]
+- !private ["s7CVarArgP", "mockView"]
+- !private ["s7CVarArgP", "setUp"]
+- !private ["s7CVarArgP", "sut"]
+- !private ["s7CVarArgP", "tearDown"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "MockSignInInteractor"]
+- !private ["s28CustomDebugStringConvertibleP", "MockSignInRouter"]
+- !private ["s28CustomDebugStringConvertibleP", "MockSignInView"]
+- !private ["s28CustomDebugStringConvertibleP", "SignInPresenter"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssert"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertFalse"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertTrue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "measure"]
+- !private ["s28CustomDebugStringConvertibleP", "mockInteractor"]
+- !private ["s28CustomDebugStringConvertibleP", "mockRouter"]
+- !private ["s28CustomDebugStringConvertibleP", "mockView"]
+- !private ["s28CustomDebugStringConvertibleP", "setUp"]
+- !private ["s28CustomDebugStringConvertibleP", "sut"]
+- !private ["s28CustomDebugStringConvertibleP", "tearDown"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "MockSignInInteractor"]
+- !private ["s23CustomStringConvertibleP", "MockSignInRouter"]
+- !private ["s23CustomStringConvertibleP", "MockSignInView"]
+- !private ["s23CustomStringConvertibleP", "SignInPresenter"]
+- !private ["s23CustomStringConvertibleP", "XCTAssert"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertFalse"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertTrue"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "measure"]
+- !private ["s23CustomStringConvertibleP", "mockInteractor"]
+- !private ["s23CustomStringConvertibleP", "mockRouter"]
+- !private ["s23CustomStringConvertibleP", "mockView"]
+- !private ["s23CustomStringConvertibleP", "setUp"]
+- !private ["s23CustomStringConvertibleP", "sut"]
+- !private ["s23CustomStringConvertibleP", "tearDown"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "MockSignInInteractor"]
+- !private ["SQ", "MockSignInRouter"]
+- !private ["SQ", "MockSignInView"]
+- !private ["SQ", "SignInPresenter"]
+- !private ["SQ", "XCTAssert"]
+- !private ["SQ", "XCTAssertFalse"]
+- !private ["SQ", "XCTAssertTrue"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "empty"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "measure"]
+- !private ["SQ", "mockInteractor"]
+- !private ["SQ", "mockRouter"]
+- !private ["SQ", "mockView"]
+- !private ["SQ", "setUp"]
+- !private ["SQ", "sut"]
+- !private ["SQ", "tearDown"]
+- !private ["s5ErrorP", "empty"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "MockSignInInteractor"]
+- !private ["SH", "MockSignInRouter"]
+- !private ["SH", "MockSignInView"]
+- !private ["SH", "SignInPresenter"]
+- !private ["SH", "XCTAssert"]
+- !private ["SH", "XCTAssertFalse"]
+- !private ["SH", "XCTAssertTrue"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "empty"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "measure"]
+- !private ["SH", "mockInteractor"]
+- !private ["SH", "mockRouter"]
+- !private ["SH", "mockView"]
+- !private ["SH", "setUp"]
+- !private ["SH", "sut"]
+- !private ["SH", "tearDown"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["19Table_ResearchTests15MockDataFetcherC", "deinit"]
+- ["19Table_ResearchTests15MockDataFetcherC", "init"]
+- ["19Table_ResearchTests20MockSignInInteractorC", "MockDataFetcher"]
+- ["19Table_ResearchTests20MockSignInInteractorC", "NetworkDataFetcher"]
+- !private ["19Table_ResearchTests20MockSignInInteractorC", "SignInErrorCodes"]
+- ["19Table_ResearchTests20MockSignInInteractorC", "SignInInteractorOutput"]
+- ["19Table_ResearchTests20MockSignInInteractorC", "String"]
+- ["19Table_ResearchTests20MockSignInInteractorC", "deinit"]
+- ["19Table_ResearchTests20MockSignInInteractorC", "fail"]
+- ["19Table_ResearchTests20MockSignInInteractorC", "fetcher"]
+- ["19Table_ResearchTests20MockSignInInteractorC", "init"]
+- ["19Table_ResearchTests20MockSignInInteractorC", "noReturn"]
+- ["19Table_ResearchTests20MockSignInInteractorC", "output"]
+- ["19Table_ResearchTests20MockSignInInteractorC", "processing"]
+- ["19Table_ResearchTests20MockSignInInteractorC", "signIn"]
+- ["19Table_ResearchTests16MockSignInRouterC", "Error"]
+- ["19Table_ResearchTests16MockSignInRouterC", "UIViewController"]
+- ["19Table_ResearchTests16MockSignInRouterC", "deinit"]
+- ["19Table_ResearchTests16MockSignInRouterC", "init"]
+- ["19Table_ResearchTests16MockSignInRouterC", "showAlert"]
+- ["19Table_ResearchTests16MockSignInRouterC", "viewController"]
+- ["19Table_ResearchTests14MockSignInViewC", "Bool"]
+- ["19Table_ResearchTests14MockSignInViewC", "SignInPresentation"]
+- ["19Table_ResearchTests14MockSignInViewC", "deinit"]
+- ["19Table_ResearchTests14MockSignInViewC", "init"]
+- ["19Table_ResearchTests14MockSignInViewC", "loading"]
+- ["19Table_ResearchTests14MockSignInViewC", "presenter"]
+- ["19Table_ResearchTests14MockSignInViewC", "updateLoading"]
+- ["So8NSObjectC", "MockSignInInteractor"]
+- ["So8NSObjectC", "MockSignInRouter"]
+- ["So8NSObjectC", "MockSignInView"]
+- ["So8NSObjectC", "SignInPresenter"]
+- !private ["So8NSObjectC", "XCTAssert"]
+- !private ["So8NSObjectC", "XCTAssertFalse"]
+- !private ["So8NSObjectC", "XCTAssertTrue"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "measure"]
+- ["So8NSObjectC", "mockInteractor"]
+- ["So8NSObjectC", "mockRouter"]
+- ["So8NSObjectC", "mockView"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "sut"]
+- ["So8NSObjectC", "tearDown"]
+- ["So8NSObjectC", "testExample"]
+- ["So8NSObjectC", "testInteractorStartsSignInProcess"]
+- ["So8NSObjectC", "testPerformanceExample"]
+- ["So8NSObjectC", "testUpdatesViewWhenSuccessIsReturned"]
+- ["So8NSObjectC", "testViewLoadingStateChangesWhenSignIn"]
+- ["So8NSObjectC", "testWhenFailure"]
+- !private ["So8NSObjectP", "MockSignInInteractor"]
+- !private ["So8NSObjectP", "MockSignInRouter"]
+- !private ["So8NSObjectP", "MockSignInView"]
+- !private ["So8NSObjectP", "SignInPresenter"]
+- !private ["So8NSObjectP", "XCTAssert"]
+- !private ["So8NSObjectP", "XCTAssertFalse"]
+- !private ["So8NSObjectP", "XCTAssertTrue"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "measure"]
+- !private ["So8NSObjectP", "mockInteractor"]
+- !private ["So8NSObjectP", "mockRouter"]
+- !private ["So8NSObjectP", "mockView"]
+- !private ["So8NSObjectP", "setUp"]
+- !private ["So8NSObjectP", "sut"]
+- !private ["So8NSObjectP", "tearDown"]
+- ["14Table_Research18NetworkDataFetcherP", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["14Table_Research16SignInErrorCodesO", "empty"]
+- ["14Table_Research17SignInInteractionP", "MockDataFetcher"]
+- !private ["14Table_Research17SignInInteractionP", "SignInErrorCodes"]
+- ["14Table_Research17SignInInteractionP", ""]
+- !private ["14Table_Research17SignInInteractionP", "fail"]
+- !private ["14Table_Research17SignInInteractionP", "init"]
+- !private ["14Table_Research17SignInInteractionP", "noReturn"]
+- ["14Table_Research17SignInInteractionP", "output"]
+- !private ["14Table_Research17SignInInteractionP", "processing"]
+- ["14Table_Research17SignInInteractionP", "signIn"]
+- !private ["14Table_Research22SignInInteractorOutputP", "failed"]
+- !private ["14Table_Research22SignInInteractorOutputP", "init"]
+- !private ["14Table_Research22SignInInteractorOutputP", "interactor"]
+- !private ["14Table_Research22SignInInteractorOutputP", "router"]
+- !private ["14Table_Research22SignInInteractorOutputP", "signIn"]
+- !private ["14Table_Research22SignInInteractorOutputP", "success"]
+- !private ["14Table_Research22SignInInteractorOutputP", "view"]
+- !private ["14Table_Research18SignInPresentationP", "init"]
+- !private ["14Table_Research18SignInPresentationP", "interactor"]
+- !private ["14Table_Research18SignInPresentationP", "router"]
+- !private ["14Table_Research18SignInPresentationP", "signIn"]
+- !private ["14Table_Research18SignInPresentationP", "view"]
+- !private ["14Table_Research15SignInPresenterC", "init"]
+- !private ["14Table_Research15SignInPresenterC", "interactor"]
+- !private ["14Table_Research15SignInPresenterC", "router"]
+- !private ["14Table_Research15SignInPresenterC", "signIn"]
+- !private ["14Table_Research15SignInPresenterC", "view"]
+- ["19Table_ResearchTests19SignInPresenterTestC", "MockSignInInteractor"]
+- ["19Table_ResearchTests19SignInPresenterTestC", "MockSignInRouter"]
+- ["19Table_ResearchTests19SignInPresenterTestC", "MockSignInView"]
+- ["19Table_ResearchTests19SignInPresenterTestC", "SignInPresenter"]
+- !private ["19Table_ResearchTests19SignInPresenterTestC", "XCTAssert"]
+- !private ["19Table_ResearchTests19SignInPresenterTestC", "XCTAssertFalse"]
+- !private ["19Table_ResearchTests19SignInPresenterTestC", "XCTAssertTrue"]
+- ["19Table_ResearchTests19SignInPresenterTestC", "init"]
+- !private ["19Table_ResearchTests19SignInPresenterTestC", "measure"]
+- ["19Table_ResearchTests19SignInPresenterTestC", "mockInteractor"]
+- ["19Table_ResearchTests19SignInPresenterTestC", "mockRouter"]
+- ["19Table_ResearchTests19SignInPresenterTestC", "mockView"]
+- ["19Table_ResearchTests19SignInPresenterTestC", "setUp"]
+- ["19Table_ResearchTests19SignInPresenterTestC", "sut"]
+- ["19Table_ResearchTests19SignInPresenterTestC", "tearDown"]
+- ["19Table_ResearchTests19SignInPresenterTestC", "testExample"]
+- ["19Table_ResearchTests19SignInPresenterTestC", "testInteractorStartsSignInProcess"]
+- ["19Table_ResearchTests19SignInPresenterTestC", "testPerformanceExample"]
+- ["19Table_ResearchTests19SignInPresenterTestC", "testUpdatesViewWhenSuccessIsReturned"]
+- ["19Table_ResearchTests19SignInPresenterTestC", "testViewLoadingStateChangesWhenSignIn"]
+- ["19Table_ResearchTests19SignInPresenterTestC", "testWhenFailure"]
+- ["14Table_Research14SignInRoutableP", ""]
+- !private ["14Table_Research14SignInRoutableP", "init"]
+- ["14Table_Research14SignInRoutableP", "showAlert"]
+- ["14Table_Research14SignInRoutableP", "viewController"]
+- ["14Table_Research10SignInViewP", ""]
+- !private ["14Table_Research10SignInViewP", "init"]
+- !private ["14Table_Research10SignInViewP", "loading"]
+- ["14Table_Research10SignInViewP", "presenter"]
+- ["14Table_Research10SignInViewP", "updateLoading"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["So11XCTActivityP", "MockSignInInteractor"]
+- !private ["So11XCTActivityP", "MockSignInRouter"]
+- !private ["So11XCTActivityP", "MockSignInView"]
+- !private ["So11XCTActivityP", "SignInPresenter"]
+- !private ["So11XCTActivityP", "XCTAssert"]
+- !private ["So11XCTActivityP", "XCTAssertFalse"]
+- !private ["So11XCTActivityP", "XCTAssertTrue"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "measure"]
+- !private ["So11XCTActivityP", "mockInteractor"]
+- !private ["So11XCTActivityP", "mockRouter"]
+- !private ["So11XCTActivityP", "mockView"]
+- !private ["So11XCTActivityP", "setUp"]
+- !private ["So11XCTActivityP", "sut"]
+- !private ["So11XCTActivityP", "tearDown"]
+- !private ["So17XCTWaiterDelegateP", "MockSignInInteractor"]
+- !private ["So17XCTWaiterDelegateP", "MockSignInRouter"]
+- !private ["So17XCTWaiterDelegateP", "MockSignInView"]
+- !private ["So17XCTWaiterDelegateP", "SignInPresenter"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssert"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertFalse"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertTrue"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "measure"]
+- !private ["So17XCTWaiterDelegateP", "mockInteractor"]
+- !private ["So17XCTWaiterDelegateP", "mockRouter"]
+- !private ["So17XCTWaiterDelegateP", "mockView"]
+- !private ["So17XCTWaiterDelegateP", "setUp"]
+- !private ["So17XCTWaiterDelegateP", "sut"]
+- !private ["So17XCTWaiterDelegateP", "tearDown"]
+- ["So6XCTestC", "MockSignInInteractor"]
+- ["So6XCTestC", "MockSignInRouter"]
+- ["So6XCTestC", "MockSignInView"]
+- ["So6XCTestC", "SignInPresenter"]
+- !private ["So6XCTestC", "XCTAssert"]
+- !private ["So6XCTestC", "XCTAssertFalse"]
+- !private ["So6XCTestC", "XCTAssertTrue"]
+- ["So6XCTestC", "init"]
+- !private ["So6XCTestC", "init"]
+- !private ["So6XCTestC", "measure"]
+- ["So6XCTestC", "mockInteractor"]
+- ["So6XCTestC", "mockRouter"]
+- ["So6XCTestC", "mockView"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "sut"]
+- ["So6XCTestC", "tearDown"]
+- ["So6XCTestC", "testExample"]
+- ["So6XCTestC", "testInteractorStartsSignInProcess"]
+- ["So6XCTestC", "testPerformanceExample"]
+- ["So6XCTestC", "testUpdatesViewWhenSuccessIsReturned"]
+- ["So6XCTestC", "testViewLoadingStateChangesWhenSignIn"]
+- ["So6XCTestC", "testWhenFailure"]
+- ["So10XCTestCaseC", "MockSignInInteractor"]
+- ["So10XCTestCaseC", "MockSignInRouter"]
+- ["So10XCTestCaseC", "MockSignInView"]
+- ["So10XCTestCaseC", "SignInPresenter"]
+- !private ["So10XCTestCaseC", "XCTAssert"]
+- !private ["So10XCTestCaseC", "XCTAssertFalse"]
+- !private ["So10XCTestCaseC", "XCTAssertTrue"]
+- ["So10XCTestCaseC", ""]
+- ["So10XCTestCaseC", "init"]
+- !private ["So10XCTestCaseC", "init"]
+- !private ["So10XCTestCaseC", "measure"]
+- ["So10XCTestCaseC", "mockInteractor"]
+- ["So10XCTestCaseC", "mockRouter"]
+- ["So10XCTestCaseC", "mockView"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "sut"]
+- ["So10XCTestCaseC", "tearDown"]
+- ["So10XCTestCaseC", "testExample"]
+- ["So10XCTestCaseC", "testInteractorStartsSignInProcess"]
+- ["So10XCTestCaseC", "testPerformanceExample"]
+- ["So10XCTestCaseC", "testUpdatesViewWhenSuccessIsReturned"]
+- ["So10XCTestCaseC", "testViewLoadingStateChangesWhenSignIn"]
+- ["So10XCTestCaseC", "testWhenFailure"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MockSignInInteractor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MockSignInRouter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MockSignInView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SignInPresenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertFalse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertTrue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "measure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mockInteractor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mockRouter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mockView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tearDown"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "19Table_ResearchTests15MockDataFetcherC"
+- "19Table_ResearchTests20MockSignInInteractorC"
+- "19Table_ResearchTests16MockSignInRouterC"
+- "19Table_ResearchTests14MockSignInViewC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "14Table_Research18NetworkDataFetcherP"
+- !private "Sm"
+- !private "ST"
+- !private "14Table_Research16SignInErrorCodesO"
+- "14Table_Research17SignInInteractionP"
+- !private "14Table_Research22SignInInteractorOutputP"
+- !private "14Table_Research18SignInPresentationP"
+- !private "14Table_Research15SignInPresenterC"
+- "19Table_ResearchTests19SignInPresenterTestC"
+- "14Table_Research14SignInRoutableP"
+- "14Table_Research10SignInViewP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.swiftmodule/x86_64.swiftmodule"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/Alamofire/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/Table_Research.swiftmodule/x86_64.swiftmodule"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SnapKit/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON-umbrella.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage-umbrella.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/Alamofire/Alamofire-umbrella.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SnapKit/SnapKit-umbrella.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SwiftyJSON/Swift Compatibility Header/SwiftyJSON-Swift.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/AlamofireImage/Swift Compatibility Header/AlamofireImage-Swift.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/Alamofire/Swift Compatibility Header/Alamofire-Swift.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/ObjectMapper/Swift Compatibility Header/ObjectMapper-Swift.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SnapKit/Swift Compatibility Header/SnapKit-Swift.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.modulemap"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.modulemap"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/Alamofire/Alamofire.modulemap"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.modulemap"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.modulemap"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SnapKit/SnapKit.modulemap"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "71efdf81d0ae982f3eeccd17b59fbd00"

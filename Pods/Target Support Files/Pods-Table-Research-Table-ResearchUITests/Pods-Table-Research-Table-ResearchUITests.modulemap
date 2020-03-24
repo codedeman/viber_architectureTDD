@@ -1,0 +1,6 @@
+module Pods_Table_Research_Table_ResearchUITests {
+  umbrella header "Pods-Table-Research-Table-ResearchUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

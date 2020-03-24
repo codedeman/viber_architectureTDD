@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "1258631371245b76fd612d4353feb497"
+build_time: [1584946761, 988289000]
+inputs:
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/AlamofireImage/Source/AFIError.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/AlamofireImage/Source/Image.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/AlamofireImage/Source/ImageCache.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/AlamofireImage/Source/ImageDownloader.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/AlamofireImage/Source/ImageFilter.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/AlamofireImage/Source/Request+AlamofireImage.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift": [1584000823, 0]

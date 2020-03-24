@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "012499c17cc023edb79d17cc5c842842"
+build_time: [1584953207, 737020000]
+inputs:
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Table-ResearchUITests/Table_ResearchUITests.swift": [1583997466, 0]

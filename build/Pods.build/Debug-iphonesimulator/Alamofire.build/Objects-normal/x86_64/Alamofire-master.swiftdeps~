@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "4930704a613da81d8e5228d44b66a3a9"
+build_time: [1584674907, 438221000]
+inputs:
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/Alamofire/Source/AFError.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/Alamofire/Source/Alamofire.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/Alamofire/Source/MultipartFormData.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/Alamofire/Source/Notifications.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/Alamofire/Source/ParameterEncoding.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/Alamofire/Source/Request.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/Alamofire/Source/Response.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/Alamofire/Source/ResponseSerialization.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/Alamofire/Source/Result.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/Alamofire/Source/SessionDelegate.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/Alamofire/Source/SessionManager.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/Alamofire/Source/TaskDelegate.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/Alamofire/Source/Timeline.swift": [1584000823, 0]
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/Alamofire/Source/Validation.swift": [1584000823, 0]

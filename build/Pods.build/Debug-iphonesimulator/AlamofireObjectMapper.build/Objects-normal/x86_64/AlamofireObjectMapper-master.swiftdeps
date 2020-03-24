@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "236305462f1b92efd7ea762ab9ab20e6"
+build_time: [1584946761, 988766000]
+inputs:
+  "/Users/macosx/Desktop/IOS-OBJ/Table-Research/Pods/AlamofireObjectMapper/AlamofireObjectMapper/AlamofireObjectMapper.swift": [1584000823, 0]

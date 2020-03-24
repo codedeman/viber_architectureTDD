@@ -1,0 +1,12 @@
+module ObjectMapper {
+  umbrella header "ObjectMapper-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module ObjectMapper.Swift {
+  header "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/ObjectMapper/Swift Compatibility Header/ObjectMapper-Swift.h"
+  requires objc
+}

@@ -1,0 +1,566 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Table_ResearchTests"
+- "MockUserInteractor"
+- "MockDataService"
+provides-nominal:
+- "19Table_ResearchTestsAAC"
+- "19Table_ResearchTests18MockUserInteractorC"
+- "19Table_ResearchTests15MockDataServiceC"
+provides-member:
+- ["19Table_ResearchTestsAAC", ""]
+- ["19Table_ResearchTests18MockUserInteractorC", ""]
+- ["19Table_ResearchTests15MockDataServiceC", ""]
+provides-dynamic-lookup:
+- "setUp"
+- "tearDown"
+- "testExample"
+- "testInteractor"
+- "testPerformanceExample"
+depends-top-level:
+- !private "+"
+- !private "Alamofire"
+- !private "ApiBaseURl"
+- "Array"
+- "AssignmentPrecedence"
+- "Bundle"
+- "CastingPrecedence"
+- !private "DispatchQueue"
+- "Error"
+- "ErrorCallback"
+- "InteractorToPresenterUserListPotocol"
+- !private "JSON"
+- !private "Mapper"
+- !private "MockDataFetcher"
+- "MockDataService"
+- "MockUserInteractor"
+- !private "NSError"
+- "String"
+- "StringLiteralType"
+- "Table_ResearchTests"
+- "UserApiClient"
+- "UserCallback"
+- "UserEntity"
+- "UserListInteractor"
+- !private "UserService"
+- "XCTestCase"
+- !private "debugPrint"
+- !private "print"
+depends-member:
+- !private ["SK", "arrayObject"]
+- ["SK", "init"]
+- ["SK", "init"]
+- ["So8NSBundleC", "main"]
+- ["So8NSBundleC", "path"]
+- !private ["s7CVarArgP", "MockDataFetcher"]
+- !private ["s7CVarArgP", "UserService"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "debugPrint"]
+- !private ["s7CVarArgP", "global"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "measure"]
+- ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "setUp"]
+- !private ["s7CVarArgP", "sut"]
+- !private ["Sl", "arrayObject"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "arrayObject"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["SL", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "MockDataFetcher"]
+- !private ["s28CustomDebugStringConvertibleP", "UserService"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "arrayObject"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "debugPrint"]
+- !private ["s28CustomDebugStringConvertibleP", "failure"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "measure"]
+- ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "responseJSON"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
+- !private ["s28CustomDebugStringConvertibleP", "setUp"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "success"]
+- !private ["s28CustomDebugStringConvertibleP", "sut"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "MockDataFetcher"]
+- !private ["s23CustomStringConvertibleP", "UserService"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "arrayObject"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "debugPrint"]
+- !private ["s23CustomStringConvertibleP", "failure"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "measure"]
+- ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "responseJSON"]
+- !private ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "setUp"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "success"]
+- !private ["s23CustomStringConvertibleP", "sut"]
+- !private ["9Alamofire11DataRequestC", "responseJSON"]
+- !private ["9Alamofire12DataResponseV", "data"]
+- !private ["9Alamofire12DataResponseV", "result"]
+- !private ["Se", "arrayObject"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "global"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "global"]
+- !private ["SE", "arrayObject"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "MockDataFetcher"]
+- !private ["SQ", "UserService"]
+- ["SQ", ""]
+- !private ["SQ", "arrayObject"]
+- !private ["SQ", "async"]
+- !private ["SQ", "background"]
+- !private ["SQ", "debugPrint"]
+- !private ["SQ", "global"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "main"]
+- !private ["SQ", "measure"]
+- ["SQ", "path"]
+- !private ["SQ", "print"]
+- !private ["SQ", "setUp"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "sut"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "arrayObject"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "arrayObject"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "arrayObject"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "arrayObject"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "arrayObject"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "arrayObject"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "subscript"]
+- !private ["s26ExpressibleByStringLiteralP", "arrayObject"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "arrayObject"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["SH", "MockDataFetcher"]
+- !private ["SH", "UserService"]
+- ["SH", ""]
+- !private ["SH", "async"]
+- !private ["SH", "background"]
+- !private ["SH", "debugPrint"]
+- !private ["SH", "global"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "main"]
+- !private ["SH", "measure"]
+- ["SH", "path"]
+- !private ["SH", "print"]
+- !private ["SH", "setUp"]
+- !private ["SH", "sut"]
+- ["14Table_Research36InteractorToPresenterUserListPotocolP", "Bundle"]
+- !private ["14Table_Research36InteractorToPresenterUserListPotocolP", "UserService"]
+- ["14Table_Research36InteractorToPresenterUserListPotocolP", ""]
+- !private ["14Table_Research36InteractorToPresenterUserListPotocolP", "error"]
+- !private ["14Table_Research36InteractorToPresenterUserListPotocolP", "print"]
+- ["14Table_Research36InteractorToPresenterUserListPotocolP", "userFailed"]
+- !private ["14Table_Research36InteractorToPresenterUserListPotocolP", "userList1"]
+- ["14Table_Research36InteractorToPresenterUserListPotocolP", "usersSuccess"]
+- !private ["10SwiftyJSON0B0V", "arrayObject"]
+- !private ["10SwiftyJSON0B0V", "init"]
+- !private ["10SwiftyJSON0B0V", "subscript"]
+- ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s22LazyCollectionProtocolP", "arrayObject"]
+- !private ["s20LazySequenceProtocolP", "arrayObject"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["12ObjectMapper0B0C", "init"]
+- !private ["12ObjectMapper0B0C", "mapArray"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["19Table_ResearchTests15MockDataFetcherC", "init"]
+- !private ["19Table_ResearchTests15MockDataServiceC", "Alamofire"]
+- !private ["19Table_ResearchTests15MockDataServiceC", "ApiBaseURl"]
+- !private ["19Table_ResearchTests15MockDataServiceC", "DispatchQueue"]
+- ["19Table_ResearchTests15MockDataServiceC", "ErrorCallback"]
+- !private ["19Table_ResearchTests15MockDataServiceC", "JSON"]
+- !private ["19Table_ResearchTests15MockDataServiceC", "Mapper"]
+- !private ["19Table_ResearchTests15MockDataServiceC", "NSError"]
+- ["19Table_ResearchTests15MockDataServiceC", "String"]
+- ["19Table_ResearchTests15MockDataServiceC", "UserCallback"]
+- ["19Table_ResearchTests15MockDataServiceC", "UserEntity"]
+- !private ["19Table_ResearchTests15MockDataServiceC", "debugPrint"]
+- ["19Table_ResearchTests15MockDataServiceC", "deinit"]
+- ["19Table_ResearchTests15MockDataServiceC", "init"]
+- !private ["19Table_ResearchTests15MockDataServiceC", "print"]
+- ["19Table_ResearchTests15MockDataServiceC", "requestUserWithUsername"]
+- ["19Table_ResearchTests15MockDataServiceC", "userList1"]
+- ["19Table_ResearchTests18MockUserInteractorC", "Array"]
+- ["19Table_ResearchTests18MockUserInteractorC", "Bundle"]
+- ["19Table_ResearchTests18MockUserInteractorC", "Error"]
+- ["19Table_ResearchTests18MockUserInteractorC", "UserApiClient"]
+- ["19Table_ResearchTests18MockUserInteractorC", "UserEntity"]
+- !private ["19Table_ResearchTests18MockUserInteractorC", "UserService"]
+- ["19Table_ResearchTests18MockUserInteractorC", "deinit"]
+- ["19Table_ResearchTests18MockUserInteractorC", "error"]
+- ["19Table_ResearchTests18MockUserInteractorC", "init"]
+- ["19Table_ResearchTests18MockUserInteractorC", "path"]
+- !private ["19Table_ResearchTests18MockUserInteractorC", "print"]
+- ["19Table_ResearchTests18MockUserInteractorC", "userApiWorker"]
+- ["19Table_ResearchTests18MockUserInteractorC", "userFailed"]
+- ["19Table_ResearchTests18MockUserInteractorC", "userList1"]
+- ["19Table_ResearchTests18MockUserInteractorC", "usersSuccess"]
+- !private ["SM", "arrayObject"]
+- !private ["So8NSObjectC", "MockDataFetcher"]
+- ["So8NSObjectC", "MockDataService"]
+- ["So8NSObjectC", "MockUserInteractor"]
+- !private ["So8NSObjectC", "UserApiClient"]
+- !private ["So8NSObjectC", "UserEntity"]
+- ["So8NSObjectC", "UserListInteractor"]
+- !private ["So8NSObjectC", "UserService"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "debugPrint"]
+- !private ["So8NSObjectC", "global"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "interactor"]
+- ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "measure"]
+- ["So8NSObjectC", "path"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "service"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "sut"]
+- ["So8NSObjectC", "tearDown"]
+- ["So8NSObjectC", "testExample"]
+- ["So8NSObjectC", "testInteractor"]
+- ["So8NSObjectC", "testPerformanceExample"]
+- !private ["So8NSObjectP", "MockDataFetcher"]
+- !private ["So8NSObjectP", "UserService"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "debugPrint"]
+- !private ["So8NSObjectP", "global"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "measure"]
+- ["So8NSObjectP", "path"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "setUp"]
+- !private ["So8NSObjectP", "sut"]
+- !private ["14Table_Research18NetworkDataFetcherP", "init"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "global"]
+- !private ["14Table_Research37PresenterToInteractorUserListProtocolP", "userApiWorker"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "background"]
+- !private ["Sk", "arrayObject"]
+- !private ["Sm", "arrayObject"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["SY", "arrayObject"]
+- !private ["SY", "init"]
+- !private ["SY", "subscript"]
+- !private ["9Alamofire7RequestC", "responseJSON"]
+- !private ["9Alamofire8ResponseP", "data"]
+- !private ["9Alamofire8ResponseP", "result"]
+- !private ["9Alamofire6ResultO", "failure"]
+- !private ["9Alamofire6ResultO", "success"]
+- !private ["ST", "arrayObject"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["s5SliceV", "arrayObject"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- !private ["19Table_ResearchTestsAAC", "MockDataFetcher"]
+- ["19Table_ResearchTestsAAC", "MockDataService"]
+- ["19Table_ResearchTestsAAC", "MockUserInteractor"]
+- !private ["19Table_ResearchTestsAAC", "UserApiClient"]
+- !private ["19Table_ResearchTestsAAC", "UserEntity"]
+- ["19Table_ResearchTestsAAC", "UserListInteractor"]
+- !private ["19Table_ResearchTestsAAC", "UserService"]
+- !private ["19Table_ResearchTestsAAC", "debugPrint"]
+- ["19Table_ResearchTestsAAC", "init"]
+- ["19Table_ResearchTestsAAC", "interactor"]
+- !private ["19Table_ResearchTestsAAC", "measure"]
+- !private ["19Table_ResearchTestsAAC", "print"]
+- ["19Table_ResearchTestsAAC", "service"]
+- ["19Table_ResearchTestsAAC", "setUp"]
+- ["19Table_ResearchTestsAAC", "sut"]
+- ["19Table_ResearchTestsAAC", "tearDown"]
+- ["19Table_ResearchTestsAAC", "testExample"]
+- ["19Table_ResearchTestsAAC", "testInteractor"]
+- ["19Table_ResearchTestsAAC", "testPerformanceExample"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["14Table_Research13UserApiClientP", "Alamofire"]
+- !private ["14Table_Research13UserApiClientP", "ApiBaseURl"]
+- !private ["14Table_Research13UserApiClientP", "DispatchQueue"]
+- !private ["14Table_Research13UserApiClientP", "JSON"]
+- !private ["14Table_Research13UserApiClientP", "Mapper"]
+- ["14Table_Research13UserApiClientP", ""]
+- !private ["14Table_Research13UserApiClientP", "debugPrint"]
+- !private ["14Table_Research13UserApiClientP", "print"]
+- ["14Table_Research13UserApiClientP", "requestUserWithUsername"]
+- !private ["14Table_Research18UserListInteractorC", "userApiWorker"]
+- !private ["14Table_Research11UserServiceC", "requestUserWithUsername"]
+- !private ["So11XCTActivityP", "MockDataFetcher"]
+- !private ["So11XCTActivityP", "UserService"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "debugPrint"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "measure"]
+- !private ["So11XCTActivityP", "print"]
+- !private ["So11XCTActivityP", "setUp"]
+- !private ["So11XCTActivityP", "sut"]
+- !private ["So17XCTWaiterDelegateP", "MockDataFetcher"]
+- !private ["So17XCTWaiterDelegateP", "UserService"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "debugPrint"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "measure"]
+- !private ["So17XCTWaiterDelegateP", "print"]
+- !private ["So17XCTWaiterDelegateP", "setUp"]
+- !private ["So17XCTWaiterDelegateP", "sut"]
+- !private ["So6XCTestC", "MockDataFetcher"]
+- ["So6XCTestC", "MockDataService"]
+- ["So6XCTestC", "MockUserInteractor"]
+- !private ["So6XCTestC", "UserApiClient"]
+- !private ["So6XCTestC", "UserEntity"]
+- ["So6XCTestC", "UserListInteractor"]
+- !private ["So6XCTestC", "UserService"]
+- !private ["So6XCTestC", "debugPrint"]
+- ["So6XCTestC", "init"]
+- !private ["So6XCTestC", "init"]
+- ["So6XCTestC", "interactor"]
+- !private ["So6XCTestC", "measure"]
+- !private ["So6XCTestC", "print"]
+- ["So6XCTestC", "service"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "sut"]
+- ["So6XCTestC", "tearDown"]
+- ["So6XCTestC", "testExample"]
+- ["So6XCTestC", "testInteractor"]
+- ["So6XCTestC", "testPerformanceExample"]
+- !private ["So10XCTestCaseC", "MockDataFetcher"]
+- ["So10XCTestCaseC", "MockDataService"]
+- ["So10XCTestCaseC", "MockUserInteractor"]
+- !private ["So10XCTestCaseC", "UserApiClient"]
+- !private ["So10XCTestCaseC", "UserEntity"]
+- ["So10XCTestCaseC", "UserListInteractor"]
+- !private ["So10XCTestCaseC", "UserService"]
+- ["So10XCTestCaseC", ""]
+- !private ["So10XCTestCaseC", "debugPrint"]
+- ["So10XCTestCaseC", "init"]
+- !private ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "interactor"]
+- !private ["So10XCTestCaseC", "measure"]
+- !private ["So10XCTestCaseC", "print"]
+- ["So10XCTestCaseC", "service"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "sut"]
+- ["So10XCTestCaseC", "tearDown"]
+- ["So10XCTestCaseC", "testExample"]
+- ["So10XCTestCaseC", "testInteractor"]
+- ["So10XCTestCaseC", "testPerformanceExample"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MockDataFetcher"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserService"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugPrint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "measure"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sut"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "SK"
+- "So8NSBundleC"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "9Alamofire11DataRequestC"
+- !private "9Alamofire12DataResponseV"
+- "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "14Table_Research36InteractorToPresenterUserListPotocolP"
+- !private "10SwiftyJSON0B0V"
+- "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s22LazyCollectionProtocolP"
+- !private "s20LazySequenceProtocolP"
+- "s25LosslessStringConvertibleP"
+- !private "12ObjectMapper0B0C"
+- "s10MirrorPathP"
+- !private "19Table_ResearchTests15MockDataFetcherC"
+- "19Table_ResearchTests15MockDataServiceC"
+- "19Table_ResearchTests18MockUserInteractorC"
+- !private "SM"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "14Table_Research18NetworkDataFetcherP"
+- !private "So9OS_objectC"
+- !private "14Table_Research37PresenterToInteractorUserListProtocolP"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- !private "Sk"
+- "Sm"
+- !private "SY"
+- !private "9Alamofire7RequestC"
+- !private "9Alamofire8ResponseP"
+- !private "9Alamofire6ResultO"
+- "ST"
+- !private "s5SliceV"
+- "SS"
+- "Sy"
+- "19Table_ResearchTestsAAC"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "9Alamofire14URLConvertibleP"
+- "14Table_Research13UserApiClientP"
+- !private "14Table_Research18UserListInteractorC"
+- !private "14Table_Research11UserServiceC"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.swiftmodule/x86_64.swiftmodule"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/Alamofire/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/Table_Research.swiftmodule/x86_64.swiftmodule"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SnapKit/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON-umbrella.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage-umbrella.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/Alamofire/Alamofire-umbrella.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SnapKit/SnapKit-umbrella.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SwiftyJSON/Swift Compatibility Header/SwiftyJSON-Swift.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/AlamofireImage/Swift Compatibility Header/AlamofireImage-Swift.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/Alamofire/Swift Compatibility Header/Alamofire-Swift.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/ObjectMapper/Swift Compatibility Header/ObjectMapper-Swift.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SnapKit/Swift Compatibility Header/SnapKit-Swift.h"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.modulemap"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.modulemap"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/Alamofire/Alamofire.modulemap"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.modulemap"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.modulemap"
+- "/Users/macosx/Desktop/IOS-OBJ/Table-Research/build/Debug-iphonesimulator/SnapKit/SnapKit.modulemap"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode 10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ec09786378d02a991a57789ba12f039f"
